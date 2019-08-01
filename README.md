@@ -13,4 +13,4 @@ The issue is that the appbar is not scrolling with the content with the followin
 
 With this, the appbar is not scrolling either at the beginining (and never come back), either after a quick scroll.
 
-See the [video](videos/swipeissue.mp4)
+See the [video](https://streamable.com/t73tr)
