@@ -23,7 +23,10 @@ class ScrimBugActivity : AppCompatActivity() {
             while (true) {
                 expanded = !expanded
                 delay(1000)
+                // Should toggle expand state of the appbar, without animation
+                // Bug : the scrim is still animated
                 app_bar.setExpanded(expanded, false)
+                // Bug : this toggle the scrim but without animation
                 toolbar_layout.setScrimsShown(expanded, false)
             }
         }
